@@ -8,11 +8,11 @@
 
 2020年创立 | 轻资产运营 | 合规备案 | 「学习-沉淀-变现」全链路服务
 
-[**🖥️ 硅步工作室演示地址**](https://demo.guibu3.cn/) | [**📝 业务文档中心**](https://docs.guibu3.cn/)
+[**🖥️ 硅步工作室演示地址**](https://demo.guibu3.cn/) | [**📝 业务文档中心**](guibu3.cn)
 
 🌏 **文档语言:**
 
-[](./README.md)**[简体中文](./README.md)**[](./README.md) / [](./README.en.md)**[English](./README.en.md)**[](./README.en.md)
+[](./README.md)**[简体中文](./README.md)**[](./README.md) /
 
 基于 Mizuki 模板的高效架构，快速搭建符合工作室需求的业务展示平台，包含业务矩阵、案例展示、服务流程、价格体系等核心模块。
 
