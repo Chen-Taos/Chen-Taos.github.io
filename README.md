@@ -2,27 +2,11 @@
 
 # 🌸 硅步工作室 - 基于 Mizuki 二次开发的业务展示平台
 
-<img align='right' src='./public/guibu-logo.png' width='200px' alt="硅步工作室 Logo">
-
 本项目是**硅步工作室**基于 [Mizuki](https://github.com/matsuzaka-yuki/mizuki) 静态博客模板二次开发的业务展示与文档平台，保留原模板核心技术架构与功能特性，适配工作室「技术副业全链路服务」的业务场景，遵循原项目 Apache 2.0 开源协议。
 
 硅步工作室理念：不积跬步，无以至千里  
 
 2020年创立 | 轻资产运营 | 合规备案 | 「学习-沉淀-变现」全链路服务
-
-![Image](https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/online_import/7b2d6ac3c04248f189ae26f210e1b6f8~tplv-noop.jpeg?rk3s=49177a0b&x-expires=1770132201&x-signature=hcZ%2FkuuAJkTClGcIFudHDR4P%2Bko%3D&resource_key=d2d05683-08b9-48d7-9b28-abc2c67dfc7b&resource_key=d2d05683-08b9-48d7-9b28-abc2c67dfc7b)
-
-![Image](https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/online_import/a4c11cd832fb445a99a00bd59179e044~tplv-noop.jpeg?rk3s=49177a0b&x-expires=1770132201&x-signature=Mj6w99xACMUUgvR4kqfRjoyYdt8%3D&resource_key=962b37bb-87ee-4c9c-9823-0872d5097b24&resource_key=962b37bb-87ee-4c9c-9823-0872d5097b24)
-
-![Image](https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/online_import/24e3cc9b5be540ac849525332c6c985e~tplv-noop.jpeg?rk3s=49177a0b&x-expires=1770132201&x-signature=mqcD0h3xNQzgzLZ%2BXj1tLUuAr%2Fk%3D&resource_key=3c28cd24-db8e-4a70-9a81-a65b1a15dca8&resource_key=3c28cd24-db8e-4a70-9a81-a65b1a15dca8)
-
-![Image](https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/online_import/48a5d6f9522e48acaf694ff6e0463226~tplv-noop.jpeg?rk3s=49177a0b&x-expires=1770132201&x-signature=e7uRpEtvL7%2B%2BIJa4MJ1YVCYAiI4%3D&resource_key=34239ca5-1f4a-4355-b248-25bef100c5ca&resource_key=34239ca5-1f4a-4355-b248-25bef100c5ca)
-
-[
-
-![Image](https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/online_import/c024bc86d13b45c4bc050a492759f419~tplv-noop.jpeg?rk3s=49177a0b&x-expires=1770132201&x-signature=AXu9b80XW5Uj%2FQdercYwwwp0Cn8%3D&resource_key=67e3ca38-1c01-4386-92e8-77043857cee8&resource_key=67e3ca38-1c01-4386-92e8-77043857cee8)
-
-![Image](https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/online_import/9ae9ebec2e644fa0a13290f4727c68df~tplv-noop.jpeg?rk3s=49177a0b&x-expires=1770132201&x-signature=mG%2FSGLq26ccMDCOpcn9aEQnZTts%3D&resource_key=01d49729-2e6d-4093-98d7-9ec2b8244051&resource_key=01d49729-2e6d-4093-98d7-9ec2b8244051)
 
 [**🖥️ 硅步工作室演示地址**](https://demo.guibu3.cn/) | [**📝 业务文档中心**](https://docs.guibu3.cn/)
 
