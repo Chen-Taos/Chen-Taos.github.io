@@ -1,353 +1,321 @@
-# 🌸 Mizuki 
-<img align='right' src='logo.png' width='200px' alt="Mizuki logo">
+# Mizuki 业务展示平台：硅步工作室 2024 年 1 月 1 日版
 
-A modern, feature-rich static blog template built with [Astro](https://astro.build), featuring advanced functionality and beautiful design.
+# 🌸 硅步工作室 - 基于 Mizuki 二次开发的业务展示平台
 
-[![Node.js >= 20](https://img.shields.io/badge/node.js-%3E%3D20-brightgreen)](https://nodejs.org/)
-[![pnpm >= 9](https://img.shields.io/badge/pnpm-%3E%3D9-blue)](https://pnpm.io/)
-[![Astro](https://img.shields.io/badge/Astro-5.15.3-orange)](https://astro.build/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.9.2-blue)](https://www.typescriptlang.org/)
-[![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg?logo=apache)](https://opensource.org/licenses/Apache-2.0)
+<img align='right' src='./public/guibu-logo.png' width='200px' alt="硅步工作室 Logo">
 
-[**🖥️ Live Demo**](https://mizuki.mysqil.com/) | [**📝 Documentation**](https://docs.mizuki.mysqil.com/)
+本项目是**硅步工作室**基于 [Mizuki](https://github.com/matsuzaka-yuki/mizuki) 静态博客模板二次开发的业务展示与文档平台，保留原模板核心技术架构与功能特性，适配工作室「技术副业全链路服务」的业务场景，遵循原项目 Apache 2.0 开源协议。
 
-🌏 **README Languages:**
-[**English**](./README.md) / [**中文**](./README.zh.md) / [**日本語**](./README.ja.md) / [**中文繁体**](./README.tw.md) /
+硅步工作室理念：不积跬步，无以至千里  
 
-Get started quickly with our comprehensive documentation. Whether you're customizing your theme, configuring features, or deploying to production, the documentation covers everything you need to launch your blog successfully.
+2020年创立 | 轻资产运营 | 合规备案 | 「学习-沉淀-变现」全链路服务
 
-[📚 Read Full Documentation](https://docs.mizuki.mysqil.com/) →
+![Image](https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/online_import/7b2d6ac3c04248f189ae26f210e1b6f8~tplv-noop.jpeg?rk3s=49177a0b&x-expires=1770132201&x-signature=hcZ%2FkuuAJkTClGcIFudHDR4P%2Bko%3D&resource_key=d2d05683-08b9-48d7-9b28-abc2c67dfc7b&resource_key=d2d05683-08b9-48d7-9b28-abc2c67dfc7b)
 
-![Mizuki Preview](./README.webp)
+![Image](https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/online_import/a4c11cd832fb445a99a00bd59179e044~tplv-noop.jpeg?rk3s=49177a0b&x-expires=1770132201&x-signature=Mj6w99xACMUUgvR4kqfRjoyYdt8%3D&resource_key=962b37bb-87ee-4c9c-9823-0872d5097b24&resource_key=962b37bb-87ee-4c9c-9823-0872d5097b24)
+
+![Image](https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/online_import/24e3cc9b5be540ac849525332c6c985e~tplv-noop.jpeg?rk3s=49177a0b&x-expires=1770132201&x-signature=mqcD0h3xNQzgzLZ%2BXj1tLUuAr%2Fk%3D&resource_key=3c28cd24-db8e-4a70-9a81-a65b1a15dca8&resource_key=3c28cd24-db8e-4a70-9a81-a65b1a15dca8)
+
+![Image](https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/online_import/48a5d6f9522e48acaf694ff6e0463226~tplv-noop.jpeg?rk3s=49177a0b&x-expires=1770132201&x-signature=e7uRpEtvL7%2B%2BIJa4MJ1YVCYAiI4%3D&resource_key=34239ca5-1f4a-4355-b248-25bef100c5ca&resource_key=34239ca5-1f4a-4355-b248-25bef100c5ca)
+
+[
+
+![Image](https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/online_import/c024bc86d13b45c4bc050a492759f419~tplv-noop.jpeg?rk3s=49177a0b&x-expires=1770132201&x-signature=AXu9b80XW5Uj%2FQdercYwwwp0Cn8%3D&resource_key=67e3ca38-1c01-4386-92e8-77043857cee8&resource_key=67e3ca38-1c01-4386-92e8-77043857cee8)
+
+![Image](https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/online_import/9ae9ebec2e644fa0a13290f4727c68df~tplv-noop.jpeg?rk3s=49177a0b&x-expires=1770132201&x-signature=mG%2FSGLq26ccMDCOpcn9aEQnZTts%3D&resource_key=01d49729-2e6d-4093-98d7-9ec2b8244051&resource_key=01d49729-2e6d-4093-98d7-9ec2b8244051)
+
+[**🖥️ 硅步工作室演示地址**](https://demo.guibu3.cn/) | [**📝 业务文档中心**](https://docs.guibu3.cn/)
+
+🌏 **文档语言:**
+
+[](./README.md)**[简体中文](./README.md)**[](./README.md) / [](./README.en.md)**[English](./README.en.md)**[](./README.en.md)
+
+基于 Mizuki 模板的高效架构，快速搭建符合工作室需求的业务展示平台，包含业务矩阵、案例展示、服务流程、价格体系等核心模块。
+
+[📚 查看硅步工作室完整业务文档](guibu3.cn) →
+
+![Image](&resource_key=)
 
 <table>
-  <tr>
-    <td><img alt="" src="docs/image/1.webp"></td>
-    <td><img alt="" src="docs/image/2.webp"></td>
-    <td><img alt="" src="docs/image/3.webp"></td>
-  <tr>
-  <tr>
-    <td><img alt="" src="docs/image/4.webp"></td>
-    <td><img alt="" src="docs/image/5.webp"></td>
-    <td><img alt="" src="docs/image/6.webp"></td>
-  <tr>
+
+<tr>
+
+<td><img alt="业务展示页" src="docs/image/1.webp"></td>
+
+<td><img alt="案例详情页" src="docs/image/2.webp"></td>
+
+<td><img alt="服务流程页" src="docs/image/3.webp"></td>
+
+</tr>
+
+<tr>
+
+<td><img alt="价格体系页" src="docs/image/4.webp"></td>
+
+<td><img alt="关于我们页" src="docs/image/5.webp"></td>
+
+<td><img alt="联系合作页" src="docs/image/6.webp"></td>
+
+</tr>
+
 </table>
 
+### 🔧 硅步工作室二次开发改造
 
+- **业务模块整合**：新增业务矩阵、案例展示、价格体系、合作流程等核心页面
 
-### 🔧 Component Configuration System Restructuring
-- **Unified Configuration Architecture:** Brand new modular component configuration system, supporting dynamic component management and order configuration
-- **Configuration-Driven Component Loading:** Restructured SideBar component, implementing fully configuration-based component loading mechanism
-- **Unified Control Switches:** Removed independent enable switches for music player and announcement components, unified control through sidebarLayoutConfig
-- **Responsive Layout Adaptation:** Components support responsive layouts, automatically adjusting display based on device type
+- **品牌视觉适配**：全局替换 Logo、配色、字体，符合工作室品牌规范
 
-### 📐 Layout System Optimization
-- **Dynamic Sidebar Position Adjustment:** Support for left/right sidebar switching, with automatic layout adaptation
-- **Intelligent Article Directory Positioning:** When sidebar is on the right, article navigation automatically moves to the left, providing a better reading experience
-- **Grid Layout Improvements:** Optimized CSS Grid layout, resolving container width anomaly issues
+- **功能场景定制**：关闭非必要功能（如动漫追踪），强化文档展示、业务查询能力
 
-### 🎛️ Configuration File Format Standardization
-- **Standardized Configuration Format:** Created unified component configuration file format specifications
-- **Type Safety:** Comprehensive TypeScript type definitions ensuring configuration type safety
-- **Extensibility:** Support for custom component types and configuration options
+- **部署流程优化**：适配工作室官网域名，新增国内服务器部署配置
 
-### 🧹 Code Optimization
-- **Test File Cleanup:** Removed unused test configurations and dependencies, reducing project size
-- **Code Structure Optimization:** Improved component architecture, enhancing code maintainability
-- **Performance Improvement:** Optimized component loading logic, improving page rendering performance
+- **联系方式集成**：页面全局嵌入电话、邮箱、地址等商务对接入口
+
+### 📐 原模板核心特性（完整保留）
+
+- **组件配置重构**：模块化配置体系，支持动态组件管理与排序
+
+- **布局系统优化**：左右侧边栏切换、智能目录定位、响应式布局适配
+
+- **配置格式标准化**：TypeScript 类型安全保障，支持自定义组件扩展
+
+- **代码性能优化**：精简冗余依赖、优化组件加载逻辑，提升页面渲染速度
 
 ---
 
-## ✨ Features
+## ✨ 核心功能（业务适配版）
 
-### 🎨 Design & Interface
-- [x] Built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com)
-- [x] Smooth animations and page transitions using [Swup](https://swup.js.org/)
-- [x] Light/dark theme switching with system preference detection
-- [x] Customizable theme colors and dynamic banner carousel
-- [x] Fullscreen background images with carousel, opacity, and blur effects
-- [x] Fully responsive design for all devices
-- [x] Beautiful typography with JetBrains Mono font
+### 🎨 设计与交互
 
-### 🔍 Content & Search
-- [x] Advanced search functionality based on [Pagefind](https://pagefind.app/)
-- [x] [Enhanced Markdown features](#-markdown-extensions) with syntax highlighting
-- [x] Interactive table of contents with auto-scrolling
-- [x] RSS feed generation
-- [x] Reading time estimation
-- [x] Article categorization and tagging system
+- [x] 基于 Astro + Tailwind CSS 构建，保留原模板平滑动画与页面过渡
 
+- [x] 明暗主题切换（支持系统偏好检测），适配工作室品牌色
 
+- [x] 动态轮播横幅（展示工作室核心业务与理念）
 
-### 📱 Special Pages
-- [x] **Anime Tracking Page** - Track anime watching progress and ratings
-- [x] **Friends Page** - Beautiful cards showcasing friend websites
-- [x] **Diary Page** - Share life moments, similar to social media
-- [x] **Archive Page** - Organized timeline view of articles
-- [x] **About Page** - Customizable personal introduction
+- [x] 全响应式设计，适配 PC/移动端商务展示场景
 
-### 🛠 Technical Features
-- [x] **Enhanced code blocks** based on [Expressive Code](https://expressive-code.com/)
-- [x] **Math formula support** with KaTeX rendering
-- [x] **Image optimization** with PhotoSwipe gallery integration
-- [x] **SEO optimization** including sitemaps and meta tags
-- [x] **Performance optimization** with lazy loading and caching
-- [x] **Comment system** with Twikoo integration
+- [x] 统一使用工作室指定字体体系，提升品牌辨识度
 
-## 🚀 Quick Start
+### 🔍 内容与搜索
 
-### 📦 Installation
+- [x] 基于 Pagefind 的高级搜索（支持业务关键词、案例名称检索）
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/matsuzaka-yuki/mizuki.git
-   cd mizuki
-   ```
+- [x] 增强 Markdown 功能，适配业务文档、案例说明书写规范
 
-2. **Install dependencies:**
-   ```bash
-   # Install pnpm if not already installed
-   npm install -g pnpm
-   
-   # Install project dependencies
-   pnpm install
-   ```
+- [x] 自动生成文档目录 + 滚动定位，便于快速浏览长文档
 
-3. **Configure your blog:**
-   - Edit `src/config.ts` to customize blog settings
-   - Update site information, theme colors, banner images, and social links
-   - Configure feature page functionality
+- [x] 业务分类/标签体系（按毕设服务、文书服务、运营服务等分类）
 
-4. **Start the development server:**
-   ```bash
-   pnpm dev
-   ```
-   Your blog will be available at `http://localhost:4321`
+- [x] 阅读时长估算，优化用户浏览体验
 
-### 📝 Content Management
+### 📱 特色业务页面
 
-- **Create new posts:** `pnpm new-post <filename>`
-- **Edit posts:** Modify files in `src/content/posts/`
-- **Customize special pages:** Edit files in `src/content/spec/`
-- **Add images:** Place images in `src/assets/` or `public/`
+- [x] **业务矩阵页** - 展示五大核心业务详细介绍与优势
 
-### 🚀 Deployment
+- [x] **成功案例页** - 分类展示国内/海外项目案例与成果数据
 
-Deploy your blog to any static hosting platform:
+- [x] **价格体系页** - 清晰呈现各业务收费标准与服务套餐
 
-- **Vercel:** Connect your GitHub repository to Vercel
-- **Netlify:** Deploy directly from GitHub
-- **GitHub Pages:** Use the included GitHub Actions workflow
-- **Cloudflare Pages:** Connect your repository
+- [x] **合作流程页** - 可视化展示需求沟通至售后维护全流程
 
-- **Environment Variable Configuration (Optional):** Configure in `.env` file or deployment platform
+- [x] **关于我们页** - 工作室简介、理念、联系方式完整呈现
 
-```bash
-# Umami API key for accessing Umami analytics data
-# If Umami is enabled in config.ts, it's recommended to configure the API key here
-UMAMI_API_KEY=your_umami_api_key_here
-# bcrypt salt rounds (10-14 recommended, default 12)
-BCRYPT_SALT_ROUNDS=12
-```
+### 🛠 技术特性
 
-Before deployment, update the `siteURL` in `src/config.ts`.
-**Not recommended** to commit the `.env` file to Git. The `.env` file should only be used for local debugging or building. For cloud platform deployment, it's recommended to configure via the platform's `environment variables` settings.
+- [x] 增强代码块展示（适配技术文档、项目架构说明场景）
 
-## 📝 Post Frontmatter Format
+- [x] 图片优化 + PhotoSwipe 画廊（高清展示案例截图、业务场景图）
 
-```yaml
+- [x] SEO 优化（适配国内搜索引擎，提升工作室业务曝光）
+
+- [x] 评论系统集成（支持客户咨询、合作留言互动）
+
+- [x] 性能优化（懒加载、缓存机制，保障国内访问速度）
+
+## 🚀 快速部署指南
+
+### 📦 安装部署
+
+1. **克隆仓库（硅步工作室版）**
+
+    ```Bash
+    
+    git clone https://github.com/guibu-studio/mizuki-business.git
+    cd mizuki-business
+    ```
+
+2. **安装依赖**
+
+    ```Bash
+    
+    # 安装 pnpm（未安装时）
+    npm install -g pnpm
+    
+    # 安装项目依赖
+    pnpm install
+    ```
+
+3. **配置工作室站点**
+
+    - 编辑 `src/config.ts`：修改站点标题、副标题、品牌色等基础信息
+
+    - 编辑 `src/content/business/`：更新业务介绍、案例数据、价格信息
+
+    - 替换 `public/` 下的 `guibu-logo.png` 为工作室实际 Logo
+
+4. **启动开发服务器**
+
+    ```Bash
+    
+    pnpm dev
+    ```
+
+    本地预览地址：`http://localhost:4321`
+
+### 🚀 部署方案
+
+支持多种部署方式，优先适配国内访问场景：
+
+- **国内服务器**：使用 `scripts/deploy-cn.sh` 脚本一键部署至工作室服务器
+
+- **Vercel/Netlify**：关联 GitHub 仓库，自动部署
+
+- **GitHub Pages**：使用内置 GitHub Actions 工作流部署
+
+- **环境变量配置**（可选）：
+
+    ```Bash
+    
+    # Umami 统计 API Key（如需统计访问数据）
+    UMAMI_API_KEY=your_umami_api_key
+    # bcrypt 加密盐值（默认12）
+    BCRYPT_SALT_ROUNDS=12
+    ```
+
+⚠️ 请勿将 `.env` 文件提交至 Git，生产环境建议通过部署平台配置环境变量。
+
+## 📝 业务文档前置模板
+
+```YAML
+
 ---
-title: My First Blog Post
-published: 2023-09-09
-description: This is the first post of my new blog.
-image: ./cover.jpg
-tags: [tag1, tag2]
-category: Frontend
-draft: false
-pinned: false
-lang: en      # Only set when article language differs from site language in config.ts
+title: 业务文档标题（必填）
+published: 2024-01-01（发布时间，必填）
+description: 文档简介（SEO/预览用）
+image: ./cover.jpg（封面图，相对路径）
+tags: [业务类型, 关键词]（如：毕设服务、Flask、跨境电商）
+category: 业务分类（如：核心业务、成功案例、价格体系）
+draft: false（草稿状态：true-仅内网可见，false-公开）
+pinned: false（是否置顶：true-首页展示，false-默认）
+guibu:
+  author: 负责人（可选）
+  updateTime: 2024-01-02（更新时间，可选）
 ---
 ```
 
-### Frontmatter Field Descriptions
+## 🧩 Markdown 书写规范
 
-- **title**: Article title (required)
-- **published**: Publication date (required)
-- **description**: Article description for SEO and previews
-- **image**: Cover image path (relative to article file)
-- **tags**: Array of tags for categorization
-- **category**: Article category
-- **draft**: Set to `true` to hide article in production
-- **pinned**: Set to `true` to pin article to top
-- **lang**: Article language (only set when different from site default)
+- **提示框**：统一使用 `> [!NOTE]`（业务说明）/ `> [!WARN]`（注意事项）/ `> [!TIP]`（合作提示）
 
-### Pinned Articles Feature
+- **代码块**：技术相关文档需添加语言标识，示例：
 
-The `pinned` field allows you to pin important articles to the top of your blog list. Pinned articles will always appear before regular articles regardless of their publication date.
+    ```Python
+    
+    # 毕设服务核心技术示例（Flask）
+    from flask import Flask
+    app = Flask(__name__)
+    ```
 
-**Usage:**
-```yaml
-pinned: true  # Pin this article to the top
-pinned: false # Regular article (default)
-```
+- **图片引用**：案例截图、业务场景图统一存放至 `src/assets/business/`，确保加载速度
 
-**Sorting Rules:**
-1. Pinned articles appear first, sorted by publication date (newest first)
-2. Regular articles follow, sorted by publication date (newest first)
+- **链接格式**：外部链接（如官网）需添加 `target="_blank"`，内部业务链接使用相对路径
 
-## 🧩 Markdown Extensions
+## ⚡ 常用命令
 
-Mizuki supports enhanced features beyond standard GitHub Flavored Markdown:
+|Command|Action|
+|---|---|
+|`pnpm install`|安装依赖|
+|`pnpm dev`|启动本地开发服务器（[localhost:4321](http://localhost:4321)）|
+|`pnpm build`|编译生产版本至 ./dist/|
+|`pnpm preview`|本地预览生产版本|
+|`pnpm format`|格式化代码|
+|`pnpm new-post <filename>`|创建新业务文档/案例页面|
+|`pnpm deploy:cn`|部署至国内服务器（硅步工作室专属脚本）|
+## 🎯 配置指南
 
-### 📝 Enhanced Writing
-- **Callouts:** Create beautiful annotation boxes using `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`, etc.
-- **Math Formulas:** Write LaTeX math formulas using `$inline$` and `$$block$$` syntax
-- **Code Highlighting:** Advanced syntax highlighting with line numbers and copy buttons
-- **GitHub Cards:** Embed repository cards using `::github{repo="user/repo"}`
+### 🔧 基础配置
 
-### 🎨 Visual Elements
-- **Image Gallery:** Automatic PhotoSwipe integration for image viewing
-- **Collapsible Sections:** Create expandable content blocks
-- **Custom Components:** Enhance content with special directives
+编辑 `src/config.ts` 定制工作室站点信息：
 
-### 📊 Content Organization
-- **Table of Contents:** Automatically generated from headings with smooth scrolling
-- **Reading Time:** Automatically calculated and displayed
-- **Article Metadata:** Rich frontmatter support with categories and tags
+```TypeScript
 
-## ⚡ Commands
-
-All commands are run from the project root:
-
-| Command                    | Action                                   |
-|:---------------------------|:-----------------------------------------|
-| `pnpm install`             | Install dependencies                     |
-| `pnpm dev`                 | Start local dev server at `localhost:4321` |
-| `pnpm build`               | Build production site to `./dist/`       |
-| `pnpm preview`             | Preview build locally before deployment  |
-| `pnpm check`               | Run Astro error checking                 |
-| `pnpm format`              | Format code with Prettier                   |
-| `pnpm lint`                | Check and fix code issues                |
-| `pnpm new-post <filename>` | Create a new blog post                   |
-| `pnpm astro ...`           | Run Astro CLI commands                   |
-
-## 🎯 Configuration Guide
-
-### 🔧 Basic Configuration
-
-Edit `src/config.ts` to customize your blog:
-
-```typescript
 export const siteConfig: SiteConfig = {
-  title: "Your Blog Name",
-  subtitle: "Your Blog Description",
-  lang: "en", // or "zh-CN", "ja", etc.
+  title: "硅步工作室 - 技术副业全链路服务平台",
+  subtitle: "不积跬步，无以至千里",
+  lang: "zh-CN",
   themeColor: {
-    hue: 210, // 0-360, theme hue
-    fixed: false, // Hide theme color picker
+    hue: 180, // 工作室品牌色 Hue 值
+    fixed: true, // 固定品牌色，隐藏主题切换器
   },
   banner: {
     enable: true,
-    src: ["assets/banner/1.webp"], // Banner images
+    src: ["assets/banner/business1.webp", "assets/banner/business2.webp"], // 业务相关横幅图
     carousel: {
       enable: true,
-      interval: 0.8, // seconds
+      interval: 3, // 轮播间隔（秒）
     },
   },
 };
 ```
 
-### 📱 Feature Page Configuration
+### 📝 业务内容管理
 
-- **Anime Page:** Edit anime list in `src/pages/anime.astro`
-- **Friends Page:** Edit friend data in `src/content/spec/friends.md`
-- **Diary Page:** Edit moments in `src/pages/diary.astro`
-- **About Page:** Edit content in `src/content/spec/about.md`
+- **新增业务文档**：运行 `pnpm new-post 文档名称`，按前置模板填写内容
 
-### 📦 Code-Content Separation (Optional)
+- **编辑案例数据**：修改 `src/content/business/cases/` 下的 Markdown 文件
 
-Mizuki supports separating code and content into two independent repositories, suitable for team collaboration and large projects.
+- **更新价格体系**：编辑 `src/content/business/pricing.md`
 
-**Quick Selection**:
+- **添加图片资源**：案例截图、业务图存放至 `src/assets/business/`
 
-| Use Case | Configuration | For Whom |
-|---------|---------|---------|
-| 🆕 **Local Mode** (default) | No configuration, use directly | Beginners, personal blogs |
-| 🔧 **Separation Mode** | Set `ENABLE_CONTENT_SYNC=true` | Team collaboration, private content |
+## ✏️ 贡献说明
 
-**One-Click Enable/Disable**:
+本项目为硅步工作室内部业务展示平台，暂不开放外部贡献。如需内部优化迭代，遵循以下流程：
 
-```bash
-# Method 1: Local Mode (recommended for beginners)
-# No need to create .env file, run directly
-pnpm dev
+1. 从 `main` 分支创建功能分支（`git checkout -b feature/业务优化`）
 
-# Method 2: Content Separation Mode
-# 1. Copy configuration file
-cp .env.example .env
+2. 提交修改（`git commit -m '[guibu] 优化业务展示页面'`）
 
-# 2. Edit .env to enable content separation
-ENABLE_CONTENT_SYNC=true
-CONTENT_REPO_URL=https://github.com/your-username/Mizuki-Content.git
+3. 推送分支（`git push origin feature/业务优化`）
 
-# 3. Sync content
-pnpm run sync-content
-```
+4. 提交内部 Pull Request 审核
 
-**Features**:
-- ✅ Supports public and private repositories 🔐
-- ✅ One-click enable/disable without code modification
-- ✅ Auto-sync, pulls latest content automatically before development
+## 📄 协议说明
 
-📖 **Detailed Configuration**: [Content Separation Guide](docs/CONTENT_SEPARATION.md)
-🔄 **Migration Tutorial**: [Migrate from Single Repo to Separation Mode](docs/MIGRATION_GUIDE.md)
-📚 **More Documentation**: [Documentation Index](docs/README.md)
+- 本项目基于 [Mizuki](https://github.com/matsuzaka-yuki/mizuki) 开发，遵循原项目 **Apache License 2.0** 开源协议
 
-## ✏️ Contributing
+- 原模板基于 [Fuwari](https://github.com/saicaca/fuwari)（MIT License），相关版权信息已保留在 LICENSE.MIT 文件中
 
-Contributions are welcome! Feel free to submit issues and pull requests.
+- 硅步工作室二次开发部分的代码同样遵循 Apache License 2.0 协议，仅限授权场景使用
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+## 🙏 致谢
 
-## 📄 License
+- 原模板：[Mizuki](https://github.com/matsuzaka-yuki/mizuki) by matsuzaka-yuki - 提供高效稳定的技术架构基础
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+- 技术依赖：Astro、Tailwind CSS、Swup、Pagefind 等开源项目
 
-### Original Project License
+- 硅步工作室团队：参与本项目二次开发与业务适配的所有成员
 
-This project is based on [Fuwari](https://github.com/saicaca/fuwari), which is licensed under the MIT License. The original copyright notice and permission notice are included in the LICENSE.MIT file in accordance with the MIT License requirements.
+## 🍀 关于硅步工作室
 
-## 🙏 Acknowledgements
-
-- Based on the original [Fuwari](https://github.com/saicaca/fuwari) template
-- Inspired by [Yukina](https://github.com/WhitePaper233/yukina) - a beautiful and elegant blog template
-- Some designs are inspired by [Firefly](https://github.com/CuteLeaf/Firefly) & [Twilight](https://github.com/spr-aachen/Twilight) templates
-- Uses [Pio](https://github.com/Dreamer-Paul/Pio) to implement the adorable Live2D mascot plugin
-- Built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com)
-- Icons from [Iconify](https://iconify.design/)
-
-### 🌸 Special Thanks
-
-- **[Fuwari](https://github.com/saicaca/fuwari)** by saicaca - The original template that this project is based on. Thank you for creating such a beautiful and functional template.
-- **[Yukina](https://github.com/WhitePaper233/yukina)** - Thanks for providing design inspiration and creativity that helped shape this project. Yukina is an elegant blog template that demonstrates excellent design principles and user experience.
-- **[Firefly](https://github.com/CuteLeaf/Firefly)** - Thanks for providing excellent layout design ideas. The dual sidebar layout, article dual-column grid layout, and some widget designs and implementations have enriched Mizuki's interface.
-- **[Twilight](https://github.com/spr-aachen/Twilight)** - Thanks for providing inspiration and technical support. Twilight's dynamic wallpaper modes switching system, responsive design and transition effects have greatly enhanced the user experience of Mizuki.
-
-## 🍀 Contributors
-
-Thanks to all contributors for their contributions to this project. If you have any questions or suggestions, please submit an [Issue](https://github.com/matsuzaka-yuki/Mizuki/issues) or [Pull Request](https://github.com/matsuzaka-yuki/Mizuki/pulls).
-
-<a href="https://github.com/matsuzaka-yuki/Mizuki/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=matsuzaka-yuki/Mizuki" />
-</a>
+专注技术副业领域，构建「学习-沉淀-变现」全链路业务体系，核心业务涵盖计算机毕设服务、专业文书撰写、自媒体运营、海外项目代工、跨境电商服务，累计服务客户500+，交付项目成功率98%+。
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=matsuzaka-yuki/Mizuki&type=Date)](https://star-history.com/#matsuzaka-yuki/Mizuki&Date)
+![Image](https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/online_import/d2a366fc461d4ab2883570d8ff362b35~tplv-noop.jpeg?rk3s=49177a0b&x-expires=1770132201&x-signature=AxOshk7zeQ%2BX9chCR%2BogyGVjrv0%3D&resource_key=a88a527e-27b7-4553-ada6-42d5677011a2&resource_key=a88a527e-27b7-4553-ada6-42d5677011a2)
+
 ---
 
-⭐ If you find this project helpful, please consider giving it a star!
+⭐ 若本项目对您的合作决策有帮助，欢迎在 GitHub 点亮 Star！商务合作请通过官网或邮箱联系我们～
